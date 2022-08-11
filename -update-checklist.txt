@@ -1,2 +1,4 @@
 - popeglati content
 - dodati dvije podstranice
+- dodati rss
+- dodati sitemap
