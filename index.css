@@ -13,15 +13,18 @@
 	   h1,h2,h3,p{
 		   line-height:1.2;
 		   color: #FFC40C;
+		   font-family: Lucida Console,monospace; 
 	   }
 	   
 	   a{
 		   color: pink;
+		   ont-family: Lucida Console,monospace; 
 	   }
 	   
 	   li{
 		   color: gray;
-		     font-family: "OCR A";
+                   font-family: Lucida Console,monospace; 
+
 	   }
 
 img {
