@@ -1,32 +1,34 @@
- body{
-		   margin:40px auto;
-		   max-width:650px;
-		   line-height:1.6;
-		   font-size:18px;
-		   color:#444;
-		   padding:0 10px;
-		   background: #1c0e01;
-	 	   font-family: Lucida Console,monospace; 
+body{
+margin:40px auto;
+max-width:650px;
+line-height:1.6;
+font-size:18px;
+color:#444;
+padding:0 10px;
+background: #1c0e01;
+font-family: Lucida Console,monospace; 
+}
 
-		   	  
-	   }
-	   h1,h2,h3,p{
-		   line-height:1.2;
-		   color: #FFC40C;
-		   font-family: Lucida Console,monospace; 
-	   }
-	   
-	   a{
-		   color: pink;
-		   ont-family: Lucida Console,monospace; 
-	   }
-	   
-	   li{
-		   /* color: gray; */
-		   color:  #e3d6b6;
-                   font-family: Lucida Console,monospace; 
+h1,h2,h3{
+line-height:1.2;
+color: #FFC40C;
+font-family: Lucida Console,monospace; 
+}
 
-	   }
+a{
+color: pink;
+ont-family: Lucida Console,monospace; 
+}
+	   
+li{
+color:  #e3d6b6;
+font-family: Lucida Console,monospace; 
+}
+	   
+p{
+color:  #e3d6b6;
+font-family: Lucida Console,monospace; 
+}
 
 img {
 height: auto;
