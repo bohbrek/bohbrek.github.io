@@ -62,3 +62,8 @@ nav a {
 nav a:hover {
   color: #ccc;
 }
+
+.navbar {
+  display: block;
+  text-align: center;
+}
