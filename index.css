@@ -54,7 +54,7 @@ nav li {
 }
 
 nav a {
-  color: #fff;
+  color: pink;
   text-decoration: none;
   font-size: 18px;
 }
@@ -63,15 +63,4 @@ nav a:hover {
   color: #ccc;
 }
 
-.navbar {
-  display: block;
-  text-align: center;
-}
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 80%;
-  margin: 0 auto;
-}
