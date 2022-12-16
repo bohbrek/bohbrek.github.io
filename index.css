@@ -54,6 +54,7 @@ nav li {
 }
 
 nav a {
+  text-align: center;
   color: pink;
   text-decoration: none;
   font-size: 18px;
