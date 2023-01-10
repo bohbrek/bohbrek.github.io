@@ -68,3 +68,10 @@ nav a:hover {
 hr {
   border: 1px solid #FFC40C;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
