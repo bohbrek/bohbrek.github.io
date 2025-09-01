@@ -1,0 +1,152 @@
+/* Reset basics */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: #222;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 14px; /* smaller font size */
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+#page {
+  max-width: 600px;
+  width: 100%;
+}
+
+header h1 {
+  font-weight: normal;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  position: relative;
+}
+
+header h1::after {
+  content: "";
+  position: absolute;
+  bottom: -5px; /* small space from text */
+  left: 0;
+  width: 100%;
+  height: 1px; /* thin line */
+  background-color: #ddd; /* subtle gray line */
+}
+
+header nav {
+  margin-bottom: 1rem;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* center menu horizontally */
+  gap: 2rem; /* space between menu items */
+  font-size: 1rem;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #222;
+  font-weight: normal;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.menu li a:hover {
+  border-bottom: 2px solid #222;
+}
+
+header p {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+#about-me {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  text-align: left; /* align left */
+}
+
+#about-me h2 {
+  font-size: 1.25rem; /* smaller font */
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+  text-align: left; /* align left */
+  position: relative;
+}
+
+#about-me h2::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 1px; /* subtle line */
+  background-color: #ddd; /* light gray line */
+}
+
+#about-me p {
+  font-size: 0.9rem; /* smaller font */
+  color: #444;
+  text-align: left; /* align left */
+}
+
+#description p {
+  font-size: 0.9rem; /* smaller font */
+  margin-bottom: 2rem;
+  color: #444;
+  text-align: left; /* align left */
+}
+
+#articles h2 {
+  font-weight: normal;
+  font-size: 1.25rem; /* smaller font */
+  margin-bottom: 1rem;
+  text-align: left; /* align left */
+  position: relative;
+}
+
+#articles h2::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 1px; /* subtle line */
+  background-color: #ddd; /* light gray line */
+}
+
+#articles ul {
+  list-style: none;
+}
+
+#articles li {
+  margin-bottom: 0.8rem;
+  font-size: 0.9rem; /* smaller font */
+}
+
+#articles time {
+  color: #999;
+  margin-right: 0.5rem;
+  font-family: monospace;
+}
+
+#articles a {
+  text-decoration: none;
+  color: #222;
+  font-weight: bold; /* make article titles bold */
+}
+
+#articles a:hover {
+  text-decoration: underline;
+}
