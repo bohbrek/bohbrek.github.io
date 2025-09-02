@@ -6,25 +6,25 @@
 }
 
 body {
-  background-color: #efebe0; /* Cream white background */
-  color: #333; /* Soft black text */
-  font-family: Consolas, "Courier New", monospace;
-  font-size: 14px; /* smaller font size */
-  line-height: 1.5;
+  background-color: #f6f6f6; /* Light grayish background */
+  color: #222; /* Dark gray text */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Clean sans-serif font */
+  font-size: 16px; /* Slightly larger font for readability */
+  line-height: 1.6;
   display: flex;
   justify-content: center;
   padding: 2rem 1rem;
 }
 
 #page {
-  max-width: 600px;
+  max-width: 800px; /* A bit wider for better readability */
   width: 100%;
 }
 
 header h1 {
-  font-weight: 500; /* Slightly thicker text */
-  font-size: 2rem;
-  margin-bottom: 0.25rem; /* Reduced margin */
+  font-weight: 400; /* Regular font weight */
+  font-size: 2.5rem; /* Larger heading */
+  margin-bottom: 0.5rem;
   text-align: center;
   position: relative;
 }
@@ -32,15 +32,15 @@ header h1 {
 header h1::after {
   content: "";
   position: absolute;
-  bottom: -5px; /* small space from text */
+  bottom: -10px; /* Larger space from text */
   left: 0;
   width: 100%;
-  height: 1px; /* thin line */
-  background-color: #ddd; /* subtle gray line */
+  height: 3px; /* Thicker line */
+  background-color: #222; /* Dark gray line */
 }
 
 header nav {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .menu {
@@ -53,20 +53,20 @@ header nav {
 
 .menu li a {
   text-decoration: none;
-  color: #333; /* Soft black text */
-  font-weight: 500; /* Thicker text */
+  color: #222; /* Dark gray text for links */
+  font-weight: 400; /* Regular weight */
   padding-bottom: 2px;
   border-bottom: 2px solid transparent;
   transition: border-color 0.3s ease;
 }
 
 .menu li a:hover {
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #222; /* Underline on hover */
 }
 
 header p {
   color: #666;
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-bottom: 1.5rem;
   text-align: center;
 }
@@ -78,9 +78,9 @@ header p {
 }
 
 #about-me h2 {
-  font-size: 1.25rem; /* smaller font */
-  font-weight: 500; /* Thicker text */
-  margin-bottom: 0.25rem; /* Reduced margin-bottom */
+  font-size: 1.5rem; /* Slightly larger subheading */
+  font-weight: 400; /* Regular weight */
+  margin-bottom: 0.5rem; /* Slightly larger space */
   text-align: left;
   position: relative;
 }
@@ -88,31 +88,31 @@ header p {
 #about-me h2::after {
   content: "";
   position: absolute;
-  bottom: -5px;
+  bottom: -10px; /* Larger space from text */
   left: 0;
   width: 100%;
-  height: 1px; /* subtle line */
-  background-color: #ddd; /* light gray line */
+  height: 3px; /* Thicker line */
+  background-color: #222; /* Dark gray line */
 }
 
 #about-me p {
-  font-size: 0.9rem; /* smaller font */
-  color: #333; /* Soft black text */
+  font-size: 1rem; /* Standard text size */
+  color: #222; /* Dark gray text */
   text-align: left;
-  margin-top: 0; /* No extra top margin */
-  margin-bottom: 1rem; /* Adjusted bottom margin */
+  margin-top: 0;
+  margin-bottom: 1.5rem;
 }
 
 #description p {
-  font-size: 0.9rem; /* smaller font */
-  margin-bottom: 1.5rem; /* Adjusted margin-bottom */
-  color: #333; /* Soft black text */
+  font-size: 1rem; /* Standard text size */
+  margin-bottom: 1.5rem;
+  color: #222; /* Dark gray text */
   text-align: left;
 }
 
 #articles h2 {
-  font-weight: 500; /* Thicker text */
-  font-size: 1.25rem; /* smaller font */
+  font-weight: 400; /* Regular weight */
+  font-size: 1.5rem; /* Slightly larger subheading */
   margin-bottom: 1rem;
   text-align: left;
   position: relative;
@@ -121,11 +121,11 @@ header p {
 #articles h2::after {
   content: "";
   position: absolute;
-  bottom: -5px;
+  bottom: -10px; /* Larger space from text */
   left: 0;
   width: 100%;
-  height: 1px; /* subtle line */
-  background-color: #ddd; /* light gray line */
+  height: 3px; /* Thicker line */
+  background-color: #222; /* Dark gray line */
 }
 
 #articles ul {
@@ -133,22 +133,22 @@ header p {
 }
 
 #articles li {
-  margin-bottom: 0.8rem;
-  font-size: 0.9rem; /* smaller font */
+  margin-bottom: 1rem; /* Increased spacing for readability */
+  font-size: 1rem; /* Standard text size */
 }
 
 #articles time {
-  color: #999;
+  color: #999; /* Lighter gray for dates */
   margin-right: 0.5rem;
   font-family: monospace;
 }
 
 #articles a {
   text-decoration: none;
-  color: #333; /* Soft black text */
-  font-weight: bold; /* Make article titles bold */
+  color: #222; /* Dark gray for links */
+  font-weight: 400; /* Regular weight */
 }
 
 #articles a:hover {
-  text-decoration: underline;
+  text-decoration: underline; /* Underline on hover */
 }
