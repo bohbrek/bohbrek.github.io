@@ -8,7 +8,7 @@
 body {
   background-color: #f6f6f6; /* Light grayish background */
   color: #222; /* Dark gray text */
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Clean sans-serif font */
+  font-family: Consolas, "Courier New", monospace; /* Consolas font */
   font-size: 16px; /* Slightly larger font for readability */
   line-height: 1.6;
   display: flex;
