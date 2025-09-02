@@ -6,8 +6,8 @@
 }
 
 body {
-  background-color: white;
-  color: #222;
+  background-color: #efebe0; /* Cream white background */
+  color: #333; /* Soft black text */
   font-family: Consolas, "Courier New", monospace;
   font-size: 14px; /* smaller font size */
   line-height: 1.5;
@@ -22,9 +22,9 @@ body {
 }
 
 header h1 {
-  font-weight: normal;
+  font-weight: 500; /* Slightly thicker text */
   font-size: 2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem; /* Reduced margin */
   text-align: center;
   position: relative;
 }
@@ -53,15 +53,15 @@ header nav {
 
 .menu li a {
   text-decoration: none;
-  color: #222;
-  font-weight: normal;
+  color: #333; /* Soft black text */
+  font-weight: 500; /* Thicker text */
   padding-bottom: 2px;
   border-bottom: 2px solid transparent;
   transition: border-color 0.3s ease;
 }
 
 .menu li a:hover {
-  border-bottom: 2px solid #222;
+  border-bottom: 2px solid #333;
 }
 
 header p {
@@ -72,16 +72,16 @@ header p {
 }
 
 #about-me {
-  margin-bottom: 2rem;
-  padding-bottom: 1rem;
-  text-align: left; /* align left */
+  margin-bottom: 1.5rem; /* Reduced margin-bottom */
+  padding-bottom: 0.5rem; /* Reduced padding */
+  text-align: left;
 }
 
 #about-me h2 {
   font-size: 1.25rem; /* smaller font */
-  font-weight: normal;
-  margin-bottom: 0.5rem;
-  text-align: left; /* align left */
+  font-weight: 500; /* Thicker text */
+  margin-bottom: 0.25rem; /* Reduced margin-bottom */
+  text-align: left;
   position: relative;
 }
 
@@ -97,22 +97,24 @@ header p {
 
 #about-me p {
   font-size: 0.9rem; /* smaller font */
-  color: #444;
-  text-align: left; /* align left */
+  color: #333; /* Soft black text */
+  text-align: left;
+  margin-top: 0; /* No extra top margin */
+  margin-bottom: 1rem; /* Adjusted bottom margin */
 }
 
 #description p {
   font-size: 0.9rem; /* smaller font */
-  margin-bottom: 2rem;
-  color: #444;
-  text-align: left; /* align left */
+  margin-bottom: 1.5rem; /* Adjusted margin-bottom */
+  color: #333; /* Soft black text */
+  text-align: left;
 }
 
 #articles h2 {
-  font-weight: normal;
+  font-weight: 500; /* Thicker text */
   font-size: 1.25rem; /* smaller font */
   margin-bottom: 1rem;
-  text-align: left; /* align left */
+  text-align: left;
   position: relative;
 }
 
@@ -143,8 +145,8 @@ header p {
 
 #articles a {
   text-decoration: none;
-  color: #222;
-  font-weight: bold; /* make article titles bold */
+  color: #333; /* Soft black text */
+  font-weight: bold; /* Make article titles bold */
 }
 
 #articles a:hover {
